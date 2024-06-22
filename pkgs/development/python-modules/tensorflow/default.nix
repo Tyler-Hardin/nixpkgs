@@ -321,6 +321,8 @@ let
       ]
       ++ lib.optionals cudaSupport [
         cudatoolkit
+        cudatoolkit.lib
+        cudatoolkit_joined
         cudnn
       ]
       ++ lib.optionals mklSupport [ mkl ]

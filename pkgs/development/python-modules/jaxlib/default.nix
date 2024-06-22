@@ -374,7 +374,7 @@ let
       sha256 =
         (
           if cudaSupport then
-            { x86_64-linux = "sha256-VGNMf5/DgXbgsu1w5J1Pmrukw+7UO31BNU+crKVsX5k="; }
+            { x86_64-linux = "sha256-vAF5JwpINIp4pn1tFFl5059m/8/hn2cmEia04h9hHAw="; }
           else
             {
               x86_64-linux = "sha256-uOoAyMBLHPX6jzdN43b5wZV5eW0yI8sCDD7BSX2h4oQ=";
